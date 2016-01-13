@@ -7,11 +7,6 @@
 	// 
 	require_once "vendor/autoload.php";
 
-	// define the default storage folder for the app
-	if (!defined('STORAGE_FOLDER'))
-		define( 'STORAGE_FOLDER', dirname(__FILE__) . DIRECTORY_SEPARATOR . 'storage_folder' .DIRECTORY_SEPARATOR );
-
-	
 
 	if (!count(debug_backtrace())):
 ?>
